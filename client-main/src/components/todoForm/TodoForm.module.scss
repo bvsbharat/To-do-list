@@ -1,0 +1,29 @@
+.todoForm {
+  grid-area: form;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input.form-input {
+    width: 250px;
+    margin-left: 5px;
+    padding: 2px;
+    border: 1px solid #9b9999;
+    transition-duration: .15s;
+    transition-property: border, background-color;
+    transition-timing-function: cubic-bezier(0, 0, .6, 1);
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .todoForm {
+    input.form-input {
+      width: 150px;
+      font-size: .6rem;
+    }
+
+  }
+
+}

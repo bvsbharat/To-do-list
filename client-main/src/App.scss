@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #4e4e4e;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.035em;
+  line-height: 10px;
+  margin: 5px;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  transition: background-color 0.05s ease-in-out, border-color 0.05s ease-in-out;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+ul.list-checked,
+li.unchecked,
+li.checked,
+li {
+  list-style-type: none;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+}
+
+main {
+  margin-top: 50px;
+}
